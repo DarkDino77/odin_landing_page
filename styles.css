@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 a{
     color: #E5E7EB;
@@ -10,27 +11,35 @@ a{
 .section-one{   
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
-    flex: 1;
+    background: #1F2937;
+    padding: 100px;
+  
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    padding: 100px;
+    padding: 50px;
     padding-top: 0;
+    padding-right: 100px;
 }
 .main-one{
     display: flex;
-    align-items: center;
+    align-items: top;
+    padding-top: 0;
 }
 .container-one{
     display: flex;
     flex-direction: column;
+    width: 550px;
+    padding: 50px;
 }
 .img-one{
-
+    display: flex;
+    padding: 50px;
+    width: 550px;
+    height: 250px;
+    flex-wrap: wrap;
 }
 .header-text{
     font-size: 24px;
@@ -61,4 +70,5 @@ button{
     border-color: #3882F6;
     border-radius: 4px;
     width: 75px;
+    height: 25px;
 }
