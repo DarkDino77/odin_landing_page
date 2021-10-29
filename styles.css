@@ -19,13 +19,15 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 250px;
     padding-top: 0;
-    padding-right: 100px;
+    padding-right: 250px;
+    padding-bottom: 0 ;
 }
 .main-one{
     display: flex;
     align-items: top;
+    justify-content: center;
     padding-top: 0;
 }
 .container-one{
@@ -71,4 +73,39 @@ button{
     border-radius: 4px;
     width: 75px;
     height: 25px;
+}
+.section-two{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.title-two{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 13px;
+}
+.couple{
+    margin: 25px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;   
+}
+.text-two{
+   max-width: 200px;
+}
+.img-two{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
 }
