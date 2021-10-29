@@ -12,7 +12,7 @@ a{
     display: flex;
     flex-direction: column;
     background: #1F2937;
-    padding: 100px;
+    padding: 25px;
   
 }
 .header{
@@ -66,13 +66,17 @@ li{
     color: #E5E7EB;
 }
 button{
-    color: white;
     background-color: #3882F6;
-    border: none;
-    border-color: #3882F6;
     border-radius: 4px;
     width: 75px;
     height: 25px;
+
+}
+.button-one{
+    color: white;
+    border: none;
+    border-color: #3882F6;
+
 }
 .section-two{
     display: flex;
@@ -109,3 +113,36 @@ button{
     border: 5px solid #3882F6;
     border-radius: 12px;
 }
+.section-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-four{
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.container-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 50px 25px 50px;
+    gap: 25px;
+}
+.main-four{
+
+}
+.title-four{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.text-four{
+    color: #E5E7EB;
+}
+.button-four{
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    }
