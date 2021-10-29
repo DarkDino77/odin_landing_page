@@ -18,11 +18,11 @@ a{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 250px;
+    justify-content: center;
+    gap: 500px;
+    flex-shrink: 0;
     padding-top: 0;
-    padding-right: 250px;
-    padding-bottom: 0 ;
+    padding-bottom: 0;
 }
 .main-one{
     display: flex;
