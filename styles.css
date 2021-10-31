@@ -81,7 +81,7 @@ button{
 .section-two{
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 100px;
 }
 .title-two{
     font-size: 36px;
@@ -118,14 +118,14 @@ button{
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 100px;
+    padding: 150px;
 }
 
 .quote-text{
     width: 1000px;
     font-size: 36px;   
+    font-weight: 1;
     font-style: italic;
-    font-weight: 10;
     color: #1F2937;
 }
 .subtext-three{
@@ -167,3 +167,11 @@ button{
     border: 1px solid #F9FAF8;
     color: #F9FAF8;
     }
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
