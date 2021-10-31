@@ -113,10 +113,31 @@ button{
     border: 5px solid #3882F6;
     border-radius: 12px;
 }
+.section-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote-text{
+    width: 1000px;
+    font-size: 36px;   
+    font-style: italic;
+    font-weight: 10;
+    color: #1F2937;
+}
+.subtext-three{
+    text-align: right;
+    font-weight: bolder;
+}
+
 .section-four{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px;
 }
 .background-four{
     display: flex;
